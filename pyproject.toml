@@ -7,6 +7,9 @@ authors = ["jthetzel <jthetzel@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyterlab = "^2.0.1"
+httpx = "^0.20.0"
+geopandas = "^0.10.1"
+matplotlib = "^3.4.3"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
