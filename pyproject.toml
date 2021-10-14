@@ -6,7 +6,13 @@ authors = ["jthetzel <jthetzel@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-jupyterlab = "^2.0.1"
+jupyterlab = "^3.1.18"
+httpx = "^0.20.0"
+geopandas = "^0.10.1"
+matplotlib = "^3.4.3"
+mapboxgl = "^0.10.2"
+requests = "^2.26.0"
+ipyleaflet = "^0.14.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
