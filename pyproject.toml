@@ -18,6 +18,7 @@ ipyleaflet = "^0.14.0"
 pytest = "^5.2"
 
 [tool.poetry.scripts]
+start = "scripts:start"
 freeze = "scripts:freeze"
 
 [build-system]

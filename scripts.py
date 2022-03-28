@@ -8,6 +8,10 @@ project_id = "notebooks"
 project = "c-core-labs"
 
 
+def start() -> None:
+    check_call(["jupyter", "lab"])
+
+
 def freeze() -> None:
     with open("requirements.txt", "w") as file:
         check_call(
