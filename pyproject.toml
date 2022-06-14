@@ -12,7 +12,8 @@ geopandas = "^0.10.1"
 matplotlib = "^3.4.3"
 mapboxgl = "^0.10.2"
 requests = "^2.26.0"
-ipyleaflet = "^0.14.0"
+ipyleaflet = "0.14.0"
+smart-open = {extras = ["all"], version = "^6.0.0"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
