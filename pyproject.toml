@@ -14,6 +14,7 @@ mapboxgl = "^0.10.2"
 requests = "^2.26.0"
 ipyleaflet = "0.14.0"
 smart-open = {extras = ["all"], version = "^6.0.0"}
+beautifulsoup4 = "^4.11.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
@@ -21,6 +22,9 @@ pytest = "^5.2"
 [tool.poetry.scripts]
 start = "scripts:start"
 freeze = "scripts:freeze"
+
+[tool.poetry.group.dev.dependencies]
+pyright = "^1.1.293"
 
 [build-system]
 requires = ["poetry>=0.12"]
